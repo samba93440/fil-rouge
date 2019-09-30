@@ -1,0 +1,32 @@
+{
+  "name": "fil_rouge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@angular/cli": "^8.3.6",
+    "@hapi/joi": "^15.1.1",
+    "compression": "^1.7.4",
+    "config": "^3.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "mongoose": "^5.7.0",
+    "underscores": "0.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/toto-964824.git"
+  },
+  "description": ""
+}
