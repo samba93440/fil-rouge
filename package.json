@@ -13,6 +13,7 @@
   "license": "ISC",
   "keywords": [],
   "dependencies": {
+    "@angular/cli": "^8.3.6",
     "@hapi/joi": "^15.1.1",
     "compress": "^0.99.0",
     "config": "^3.2.2",
@@ -23,5 +24,9 @@
     "underscores": "0.0.1"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/toto-964824.git"
+  },
   "description": ""
 }
