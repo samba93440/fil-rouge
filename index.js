@@ -2,20 +2,22 @@
 //le point d'entrée de notre application
 //mes require
 const helmet            = require("helmet");
+const mongoose          = require("mongoose");
 const cors              = require("cors");
 const express           = require("express");
-const compression       = require('compression');
-const mongoose          = require("mongoose");
+const compression       = require("compression");
 const articleRouter     = require("./router/articles");
 const userRouter        = require("./router/users");
 const commentaireRouter = require("./router/commentaires");
 const parametreRouter   = require("./router/parametres");
 
+
 const app               = express();
 
+
 //middleware
-app.use(compression());
-app.use(express());
+app.use(compression())
+app.use(express.json());
 app.use(helmet());
 app.use(cors());
 
