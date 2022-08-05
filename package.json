@@ -20,7 +20,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^3.21.0",
-    "mongoose": "^5.7.0",
+    "mongoose": "^5.7.5",
     "underscores": "0.0.1"
   },
   "devDependencies": {},
